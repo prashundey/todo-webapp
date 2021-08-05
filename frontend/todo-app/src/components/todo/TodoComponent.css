@@ -1,0 +1,11 @@
+.form fieldset {
+    max-width: 850px;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+}
+
+fieldset label {
+    padding: 5px;
+}
+
