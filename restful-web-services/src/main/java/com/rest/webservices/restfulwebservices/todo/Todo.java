@@ -3,9 +3,11 @@ package com.rest.webservices.restfulwebservices.todo;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 import java.util.Objects;
 
+@Table(name = "Todo")
 @Entity
 public class Todo {
 
